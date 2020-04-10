@@ -2317,3 +2317,264 @@
 22-Feb-2020 12:22:27.993 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 22-Feb-2020 12:22:27.997 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
 22-Feb-2020 12:22:27.999 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2020 02:22:49.127 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.21
+10-Apr-2020 02:22:49.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 4 2019 20:19:36 UTC
+10-Apr-2020 02:22:49.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.21.0
+10-Apr-2020 02:22:49.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Apr-2020 02:22:49.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.6
+10-Apr-2020 02:22:49.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Apr-2020 02:22:49.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre
+10-Apr-2020 02:22:49.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_152-b16
+10-Apr-2020 02:22:49.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Apr-2020 02:22:49.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat
+10-Apr-2020 02:22:49.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat
+10-Apr-2020 02:22:49.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat/conf/logging.properties
+10-Apr-2020 02:22:49.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2020 02:22:49.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Apr-2020 02:22:49.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Apr-2020 02:22:49.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Apr-2020 02:22:49.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Apr-2020 02:22:49.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat
+10-Apr-2020 02:22:49.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat
+10-Apr-2020 02:22:49.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat/temp
+10-Apr-2020 02:22:49.144 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/jaswa-zuch749/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Apr-2020 02:22:49.334 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 02:22:49.353 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2020 02:22:49.354 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [359] milliseconds
+10-Apr-2020 02:22:49.372 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Apr-2020 02:22:49.372 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.21]
+10-Apr-2020 02:22:49.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat/webapps/ROOT]
+10-Apr-2020 02:22:49.839 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Apr-2020 02:22:50.009 INFO [main] com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.info Parsing configuration file [struts-default.xml]
+10-Apr-2020 02:22:50.059 INFO [main] com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.info Unable to locate configuration files of the name struts-plugin.xml, skipping
+10-Apr-2020 02:22:50.059 INFO [main] com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.info Parsing configuration file [struts-plugin.xml]
+10-Apr-2020 02:22:50.063 INFO [main] com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.info Parsing configuration file [struts.xml]
+10-Apr-2020 02:22:50.065 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+10-Apr-2020 02:22:50.065 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+10-Apr-2020 02:22:50.065 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+10-Apr-2020 02:22:50.065 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+10-Apr-2020 02:22:50.065 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+10-Apr-2020 02:22:50.065 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+10-Apr-2020 02:22:50.066 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.UnknownHandlerFactory)
+10-Apr-2020 02:22:50.066 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+10-Apr-2020 02:22:50.066 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+10-Apr-2020 02:22:50.066 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+10-Apr-2020 02:22:50.066 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+10-Apr-2020 02:22:50.066 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+10-Apr-2020 02:22:50.066 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+10-Apr-2020 02:22:50.067 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+10-Apr-2020 02:22:50.067 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+10-Apr-2020 02:22:50.067 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+10-Apr-2020 02:22:50.067 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+10-Apr-2020 02:22:50.067 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+10-Apr-2020 02:22:50.067 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+10-Apr-2020 02:22:50.067 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+10-Apr-2020 02:22:50.068 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+10-Apr-2020 02:22:50.068 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+10-Apr-2020 02:22:50.068 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+10-Apr-2020 02:22:50.068 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+10-Apr-2020 02:22:50.068 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+10-Apr-2020 02:22:50.068 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+10-Apr-2020 02:22:50.069 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+10-Apr-2020 02:22:50.069 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+10-Apr-2020 02:22:50.069 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+10-Apr-2020 02:22:50.069 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+10-Apr-2020 02:22:50.069 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+10-Apr-2020 02:22:50.069 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+10-Apr-2020 02:22:50.070 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.util.ContentTypeMatcher)
+10-Apr-2020 02:22:50.070 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+10-Apr-2020 02:22:50.070 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+10-Apr-2020 02:22:50.070 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+10-Apr-2020 02:22:50.070 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+10-Apr-2020 02:22:50.070 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.dispatcher.DispatcherErrorHandler)
+10-Apr-2020 02:22:50.071 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.security.ExcludedPatternsChecker)
+10-Apr-2020 02:22:50.071 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.security.AcceptedPatternsChecker)
+10-Apr-2020 02:22:50.379 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat/webapps/ROOT] has finished in [875] ms
+10-Apr-2020 02:22:50.380 SEVERE [main] org.apache.catalina.mapper.MapperListener.findDefaultHost Unknown default host [localhost] for service [StandardService[Catalina]]. Tomcat will not be able process HTTP/1.0 requests that do not specify a host name.
+10-Apr-2020 02:22:50.381 SEVERE [main] org.apache.catalina.mapper.MapperListener.findDefaultHost Unknown default host [localhost] for service [StandardService[Catalina]]. Tomcat will not be able process HTTP/1.0 requests that do not specify a host name.
+10-Apr-2020 02:22:50.381 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 02:22:50.386 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2020 02:22:50.388 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,033] milliseconds
+10-Apr-2020 02:23:46.423 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Apr-2020 02:23:46.423 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 02:23:46.432 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2020 02:23:46.439 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Apr-2020 02:23:46.441 SEVERE [main] org.apache.catalina.mapper.MapperListener.findDefaultHost Unknown default host [localhost] for service [StandardService[Catalina]]. Tomcat will not be able process HTTP/1.0 requests that do not specify a host name.
+10-Apr-2020 02:23:46.453 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 02:23:46.455 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2020 02:23:46.455 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 02:23:46.456 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2020 02:23:54.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.21
+10-Apr-2020 02:23:54.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 4 2019 20:19:36 UTC
+10-Apr-2020 02:23:54.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.21.0
+10-Apr-2020 02:23:54.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Apr-2020 02:23:54.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.6
+10-Apr-2020 02:23:54.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Apr-2020 02:23:54.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre
+10-Apr-2020 02:23:54.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_152-b16
+10-Apr-2020 02:23:54.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Apr-2020 02:23:54.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat
+10-Apr-2020 02:23:54.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat
+10-Apr-2020 02:23:54.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat/conf/logging.properties
+10-Apr-2020 02:23:54.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2020 02:23:54.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Apr-2020 02:23:54.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Apr-2020 02:23:54.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Apr-2020 02:23:54.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Apr-2020 02:23:54.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat
+10-Apr-2020 02:23:54.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat
+10-Apr-2020 02:23:54.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat/temp
+10-Apr-2020 02:23:54.769 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/jaswa-zuch749/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Apr-2020 02:23:54.962 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 02:23:54.982 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2020 02:23:54.983 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [354] milliseconds
+10-Apr-2020 02:23:55.001 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Apr-2020 02:23:55.001 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.21]
+10-Apr-2020 02:23:55.137 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat/webapps/ROOT]
+10-Apr-2020 02:23:55.502 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Apr-2020 02:23:55.699 INFO [main] com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.info Parsing configuration file [struts-default.xml]
+10-Apr-2020 02:23:55.757 INFO [main] com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.info Unable to locate configuration files of the name struts-plugin.xml, skipping
+10-Apr-2020 02:23:55.758 INFO [main] com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.info Parsing configuration file [struts-plugin.xml]
+10-Apr-2020 02:23:55.762 INFO [main] com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.info Parsing configuration file [struts.xml]
+10-Apr-2020 02:23:55.764 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+10-Apr-2020 02:23:55.764 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+10-Apr-2020 02:23:55.764 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+10-Apr-2020 02:23:55.765 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+10-Apr-2020 02:23:55.765 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+10-Apr-2020 02:23:55.765 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+10-Apr-2020 02:23:55.765 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.UnknownHandlerFactory)
+10-Apr-2020 02:23:55.765 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+10-Apr-2020 02:23:55.765 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+10-Apr-2020 02:23:55.765 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+10-Apr-2020 02:23:55.765 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+10-Apr-2020 02:23:55.766 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+10-Apr-2020 02:23:55.766 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+10-Apr-2020 02:23:55.766 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+10-Apr-2020 02:23:55.766 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+10-Apr-2020 02:23:55.766 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+10-Apr-2020 02:23:55.766 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+10-Apr-2020 02:23:55.766 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+10-Apr-2020 02:23:55.767 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+10-Apr-2020 02:23:55.767 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+10-Apr-2020 02:23:55.767 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+10-Apr-2020 02:23:55.767 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+10-Apr-2020 02:23:55.767 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+10-Apr-2020 02:23:55.767 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+10-Apr-2020 02:23:55.767 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+10-Apr-2020 02:23:55.767 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+10-Apr-2020 02:23:55.768 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+10-Apr-2020 02:23:55.768 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+10-Apr-2020 02:23:55.768 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+10-Apr-2020 02:23:55.769 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+10-Apr-2020 02:23:55.769 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+10-Apr-2020 02:23:55.769 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+10-Apr-2020 02:23:55.769 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.util.ContentTypeMatcher)
+10-Apr-2020 02:23:55.769 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+10-Apr-2020 02:23:55.769 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+10-Apr-2020 02:23:55.769 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+10-Apr-2020 02:23:55.770 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+10-Apr-2020 02:23:55.770 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.dispatcher.DispatcherErrorHandler)
+10-Apr-2020 02:23:55.770 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.security.ExcludedPatternsChecker)
+10-Apr-2020 02:23:55.770 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.security.AcceptedPatternsChecker)
+10-Apr-2020 02:23:56.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat/webapps/ROOT] has finished in [1,008] ms
+10-Apr-2020 02:23:56.146 SEVERE [main] org.apache.catalina.mapper.MapperListener.findDefaultHost Unknown default host [localhost] for service [StandardService[Catalina]]. Tomcat will not be able process HTTP/1.0 requests that do not specify a host name.
+10-Apr-2020 02:23:56.147 SEVERE [main] org.apache.catalina.mapper.MapperListener.findDefaultHost Unknown default host [localhost] for service [StandardService[Catalina]]. Tomcat will not be able process HTTP/1.0 requests that do not specify a host name.
+10-Apr-2020 02:23:56.147 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 02:23:56.155 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2020 02:23:56.157 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,174] milliseconds
+10-Apr-2020 02:24:11.147 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Apr-2020 02:24:11.148 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 02:24:11.157 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2020 02:24:11.164 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Apr-2020 02:24:11.166 SEVERE [main] org.apache.catalina.mapper.MapperListener.findDefaultHost Unknown default host [localhost] for service [StandardService[Catalina]]. Tomcat will not be able process HTTP/1.0 requests that do not specify a host name.
+10-Apr-2020 02:24:11.179 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 02:24:11.180 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2020 02:24:11.181 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 02:24:11.181 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2020 12:28:04.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.21
+10-Apr-2020 12:28:05.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 4 2019 20:19:36 UTC
+10-Apr-2020 12:28:05.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.21.0
+10-Apr-2020 12:28:05.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Apr-2020 12:28:05.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.6
+10-Apr-2020 12:28:05.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Apr-2020 12:28:05.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre
+10-Apr-2020 12:28:05.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_152-b16
+10-Apr-2020 12:28:05.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Apr-2020 12:28:05.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat
+10-Apr-2020 12:28:05.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat
+10-Apr-2020 12:28:05.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat/conf/logging.properties
+10-Apr-2020 12:28:05.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2020 12:28:05.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Apr-2020 12:28:05.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Apr-2020 12:28:05.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Apr-2020 12:28:05.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Apr-2020 12:28:05.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat
+10-Apr-2020 12:28:05.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat
+10-Apr-2020 12:28:05.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat/temp
+10-Apr-2020 12:28:05.021 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/jaswa-zuch749/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Apr-2020 12:28:05.358 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 12:28:05.391 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2020 12:28:05.393 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [623] milliseconds
+10-Apr-2020 12:28:05.433 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Apr-2020 12:28:05.433 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.21]
+10-Apr-2020 12:28:05.635 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat/webapps/ROOT]
+10-Apr-2020 12:28:06.107 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Apr-2020 12:28:06.312 INFO [main] com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.info Parsing configuration file [struts-default.xml]
+10-Apr-2020 12:28:06.374 INFO [main] com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.info Unable to locate configuration files of the name struts-plugin.xml, skipping
+10-Apr-2020 12:28:06.374 INFO [main] com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.info Parsing configuration file [struts-plugin.xml]
+10-Apr-2020 12:28:06.382 INFO [main] com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.info Parsing configuration file [struts.xml]
+10-Apr-2020 12:28:06.384 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+10-Apr-2020 12:28:06.384 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+10-Apr-2020 12:28:06.384 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+10-Apr-2020 12:28:06.384 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+10-Apr-2020 12:28:06.384 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+10-Apr-2020 12:28:06.384 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+10-Apr-2020 12:28:06.384 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.UnknownHandlerFactory)
+10-Apr-2020 12:28:06.385 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+10-Apr-2020 12:28:06.385 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+10-Apr-2020 12:28:06.385 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+10-Apr-2020 12:28:06.385 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+10-Apr-2020 12:28:06.385 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+10-Apr-2020 12:28:06.385 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+10-Apr-2020 12:28:06.385 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+10-Apr-2020 12:28:06.386 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+10-Apr-2020 12:28:06.386 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+10-Apr-2020 12:28:06.386 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+10-Apr-2020 12:28:06.386 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+10-Apr-2020 12:28:06.386 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+10-Apr-2020 12:28:06.386 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+10-Apr-2020 12:28:06.386 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+10-Apr-2020 12:28:06.386 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+10-Apr-2020 12:28:06.387 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+10-Apr-2020 12:28:06.387 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+10-Apr-2020 12:28:06.387 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+10-Apr-2020 12:28:06.387 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+10-Apr-2020 12:28:06.388 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+10-Apr-2020 12:28:06.388 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+10-Apr-2020 12:28:06.388 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+10-Apr-2020 12:28:06.388 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+10-Apr-2020 12:28:06.388 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+10-Apr-2020 12:28:06.389 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+10-Apr-2020 12:28:06.389 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.util.ContentTypeMatcher)
+10-Apr-2020 12:28:06.389 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+10-Apr-2020 12:28:06.389 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+10-Apr-2020 12:28:06.389 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+10-Apr-2020 12:28:06.389 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+10-Apr-2020 12:28:06.389 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.dispatcher.DispatcherErrorHandler)
+10-Apr-2020 12:28:06.389 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.security.ExcludedPatternsChecker)
+10-Apr-2020 12:28:06.390 INFO [main] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.security.AcceptedPatternsChecker)
+10-Apr-2020 12:28:06.752 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat/webapps/ROOT] has finished in [1,116] ms
+10-Apr-2020 12:28:06.753 SEVERE [main] org.apache.catalina.mapper.MapperListener.findDefaultHost Unknown default host [localhost] for service [StandardService[Catalina]]. Tomcat will not be able process HTTP/1.0 requests that do not specify a host name.
+10-Apr-2020 12:28:06.754 SEVERE [main] org.apache.catalina.mapper.MapperListener.findDefaultHost Unknown default host [localhost] for service [StandardService[Catalina]]. Tomcat will not be able process HTTP/1.0 requests that do not specify a host name.
+10-Apr-2020 12:28:06.754 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 12:28:06.761 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2020 12:28:06.762 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,368] milliseconds
+10-Apr-2020 12:31:43.129 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Apr-2020 12:31:43.130 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 12:31:43.139 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2020 12:31:43.146 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Apr-2020 12:31:43.148 SEVERE [main] org.apache.catalina.mapper.MapperListener.findDefaultHost Unknown default host [localhost] for service [StandardService[Catalina]]. Tomcat will not be able process HTTP/1.0 requests that do not specify a host name.
+10-Apr-2020 12:31:43.163 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 12:31:43.164 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Apr-2020 12:31:43.165 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 12:31:43.165 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

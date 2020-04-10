@@ -278,7 +278,7 @@ font-family: 'Proxima Nova';
 <img class="design1" src="<%=request.getContextPath() %>/images/design2.png" style="left: 502px;">
 <span class="public-qa" style="left: 642px;">Private Q/A</span>
 <p class="info1" style="left: 537px;">Get answers to more than 16.5<br>million questions and give back<br>by sharing your knowledge with<br>others</p>
-<img class="smallicon" src="http://localhost:8080/images/design4.png"  style="left: 797px;">
+<img class="smallicon" src="<%=request.getContextPath() %>/images/design4.png"  style="left: 797px;">
 </div>
 <div class="feature-1">
 <div class="cardboard" style="left: 930px;"></div>  

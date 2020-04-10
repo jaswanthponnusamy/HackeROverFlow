@@ -145,7 +145,7 @@
                resourceName="UserDatabase"/>
       </Realm>
 
-      <Host name="localhost"  appBase="webapps"
+      <Host name="192.168.1.5"  appBase="webapps"
             unpackWARs="true" autoDeploy="true">
             
             <Context docBase="/Users/jaswa-zuch749/Desktop/HackeROFlow/HROF/build/output/Hacker_Overflow/apachetomcat/webapps/ROOT/hackeroverflow/images" path="/images"/>
