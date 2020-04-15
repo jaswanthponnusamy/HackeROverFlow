@@ -1,0 +1,12 @@
+<?xml version = "1.0"?>
+<project name = "Hello World Project" default = "info">
+<property name = "classes.dir" value = "output/tomcat/webapps/ROOT/WEB-INF/classes"/>
+<property name ="source.dir" value="source"/>
+   <target name = "info">
+<javac destdir = "${classes.dir}" source = "1.8" target = "1.8">
+         <src path = "../${source.dir}"/>
+         
+      </javac>
+      <echo>Complilation of the java file completed successfully.</echo>
+   </target>
+</project>
