@@ -1,12 +1,19 @@
 <?xml version = "1.0"?>
-<project name = "Hello World Project" default = "info">
+<project name = "compilation" default = "info">
+<description>Compilation of the java files into class files and put it into build/tomcat/webapps/WEB-INF/classes folder.</description>
 <property name = "classes.dir" value = "output/tomcat/webapps/ROOT/WEB-INF/classes"/>
 <property name ="source.dir" value="source"/>
-   <target name = "info">
-<javac destdir = "${classes.dir}" source = "1.8" target = "1.8">
-         <src path = "../${source.dir}"/>
-         
+<target name = "info">
+<delete dir="${classes.dir/com}">
+</delete>
+<echo>-----------------------------------------------------------------------------</echo>
+<echo> Deleted the subdir's inside the build/tomcat/webapps/WEB-INF/classes folder</echo>
+<echo>Compiling the java files</echo>
+<javac destdir = "${classes.dir}" source = "1.8" target = "1.8" includeAntRuntime="false">       
+  <src path = "../${source.dir}"/>         
       </javac>
-      <echo>Complilation of the java file completed successfully.</echo>
-   </target>
+<echo>Class files added to the classes folder.</echo>
+         <echo>Complilation of the java file completed successfully.</echo>
+<echo>-----------------------------------------------------------------------------</echo>   
+</target>
 </project>
