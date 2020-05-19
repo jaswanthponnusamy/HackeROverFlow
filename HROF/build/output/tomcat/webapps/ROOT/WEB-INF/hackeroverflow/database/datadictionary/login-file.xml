@@ -1,0 +1,87 @@
+<?xml version = "1.0"?>
+
+<data-dictionary name="hackeroverflow">
+
+<table name="table1">
+
+    <description>Name of the notification component</description>
+
+    <columns>
+
+        <column name="col1">
+            <description>Name of the notification component</description>
+            <data-type>int</data-type>
+            <auto-increment>true</auto-increment>
+        </column>
+
+        <column name="col2">
+            <description>Name of the notification component</description>
+            <data-type>VARCHAR</data-type>
+            <max-size>50</max-size>
+            <nullable>false</nullable>
+        </column>
+
+    </columns>
+
+    <primary-key name="pk_table1">col1</primary-key>
+
+
+    <unique-keys name="uk_table1">
+
+        <unique-key-column>col2</unique-key-column>
+
+    </unique-keys>
+
+</table>
+
+    <table name="table2">
+
+        <description>Name of the notification component</description>
+
+        <columns>
+
+            <column name="col1">
+                <description>Name of the notification component</description>
+                <data-type>INT</data-type>
+                <auto-increment>true</auto-increment>
+            </column>
+
+            <column name="col2">
+                <description>Name of the notification component</description>
+                <data-type>varchar</data-type>
+                <max-size>50</max-size>
+                <nullable>false</nullable>
+            </column>
+
+            <column name="col3">
+                <description>Name of the notification component</description>
+                <data-type>varchar</data-type>
+                <max-size>100</max-size>
+                <nullable>false</nullable>
+            </column>
+
+        </columns>
+
+        <primary-key name="pk_table2">col2</primary-key>
+
+        <foreign-keys>
+
+            <foreign-key name="fk_table2" reference-table-name="table1">
+
+                <fk-local-column>col1</fk-local-column>
+                <fk-reference-column>col1</fk-reference-column>
+
+            </foreign-key>
+
+        </foreign-keys>
+
+        <unique-keys name="uk_table2">
+
+            <unique-key-column>col3</unique-key-column>
+
+        </unique-keys>
+
+    </table>
+
+</data-dictionary>
+
